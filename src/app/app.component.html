@@ -7,11 +7,22 @@
             <li>Outout the beneath each other in the AppComponent</li>
             <li>Style the component appropriately (Maybe Green color text)</li>
         </ol>
+
+        <label>Username</label>
+        <input type="text" class="form-control" [(ngModel)]="username">
+        <p>{{username}}</p>
+        <button class="btn btn-primary" [disabled]="username === ''"(click)="username =''">Reset User</button>
+
+
+        <hr>
         <h3>I'am in the AppComponent!</h3>
         <p>Feel free to create component and play around</p>
         <hr>
         <app-success></app-success>
         <app-contact></app-contact>
+        <hr>
+        <app-server></app-server>
+        <app-servers></app-servers>
     </div>
 </div>
 
