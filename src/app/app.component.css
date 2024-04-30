@@ -1,3 +1,10 @@
 h3{
     color: blue;
 }
+
+.col-xs-12{
+    margin-top: 20px;
+    font-size: x-large;
+    color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

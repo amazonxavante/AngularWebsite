@@ -7,6 +7,7 @@ import { ServersComponent } from './servers/servers.component';
 import { contactComponent } from './contact/contact.component';
 
 import { from } from 'rxjs';
+import { SuccessComponent } from './success/success.component';
 
 
 
@@ -15,7 +16,8 @@ import { from } from 'rxjs';
     AppComponent,
     ServerComponent,
     ServersComponent, 
-    contactComponent
+    contactComponent, 
+    SuccessComponent,
   ],
   imports: [
     BrowserModule,
