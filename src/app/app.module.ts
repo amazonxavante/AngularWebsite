@@ -4,10 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { ServerComponent } from './server/server.component';
 import { AppComponent } from './app.component';
 import { ServersComponent } from './servers/servers.component';
-import { contactComponent } from './contact/contact.component';
+
 
 import { from } from 'rxjs';
-import { SuccessComponent } from './success/success.component';
+import { HeaderComponent } from './header/header.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { RecipesListComponent } from './recipes/recipes-list/recipes-list.component';
+import { RecipesDetailComponent } from './recipes/recipes-detail/recipes-detail.component';
+import { RecipeItemComponent } from './recipes/recipes-list/recipe-item/recipe-item.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
+
 
 
 
@@ -16,9 +23,16 @@ import { SuccessComponent } from './success/success.component';
   declarations: [
     AppComponent,
     ServerComponent,
-    ServersComponent, 
-    contactComponent, 
-    SuccessComponent,
+    ServersComponent,
+    HeaderComponent,
+    RecipesComponent,
+    RecipesListComponent,
+    RecipesDetailComponent,
+    RecipeItemComponent,
+    ShoppingListComponent,
+    ShoppingEditComponent, 
+   
+    
   ],
   imports: [
     BrowserModule,
