@@ -47,7 +47,7 @@ export class AuthService {
 
  login(email: string, password: string){
     return this.http.post<AuthResponseData>(
-      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyChP4ioUeN2nrY5BVqvj9juys0r5JYE1aU',                                                                            
+      'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyChP4ioUeN2nrY5BVqvj9juys0r5JYE1aU',                                                                  
       {
             email:email,
             password:password,
@@ -76,6 +76,7 @@ export class AuthService {
   if(!userData) {
     return;
   }
+  
    const loadedUser = new User(
     userData.email,
     userData.id,
